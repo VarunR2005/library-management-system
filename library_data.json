@@ -1,0 +1,56 @@
+{
+    "books": {
+        "1234": {
+            "title": "varun",
+            "author": "varunraj",
+            "quantity": 5,
+            "available": 4,
+            "date_added": "2026-05-18 13:07:02"
+        },
+        "123": {
+            "title": "varu",
+            "author": "varunR",
+            "quantity": 5,
+            "available": 5,
+            "date_added": "2026-05-18 16:35:55"
+        },
+        "3456": {
+            "title": "raja",
+            "author": "raj",
+            "quantity": 3,
+            "available": 3,
+            "date_added": "2026-05-19 10:43:38"
+        },
+        "6789": {
+            "title": "samachara",
+            "author": "varun",
+            "quantity": 2,
+            "available": 2,
+            "date_added": "2026-05-19 12:30:21"
+        },
+        "9076": {
+            "title": "var",
+            "author": "varunr i",
+            "quantity": 3,
+            "available": 3,
+            "date_added": "2026-05-20 12:08:19"
+        }
+    },
+    "borrowed_records": [
+        {
+            "book_id": "1234",
+            "title": "varun",
+            "member_name": "varun",
+            "borrow_date": "2026-05-18 13:08:38",
+            "status": "borrowed"
+        },
+        {
+            "book_id": "6789",
+            "title": "samachara",
+            "member_name": "varu",
+            "borrow_date": "2026-05-19 12:35:53",
+            "status": "returned",
+            "return_date": "2026-05-19 12:36:24"
+        }
+    ]
+}
